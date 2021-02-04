@@ -8,7 +8,7 @@ h2 {
     font-size: 4vw;
 }
 
-h3 {
+h3, h4 {
     display: none;
 }
 
