@@ -39,7 +39,7 @@ main article {
 }
 
 footer {
-    align-items: center;
+    text-align: center;
     text-transform: uppercase;
     font-size: 1.5vw;
     width: 100%;
