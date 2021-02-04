@@ -1,17 +1,75 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
-<body>
-    <header>
-        <h1>Jon Belaire</h1>
-        <h2>Full-Stack Web Developer</h2>
-    </header>
-    <main>
-        
-    </main>
-</body>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Portfolio | Jon Belaire</title>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css" />
+        <link rel="stylesheet" href="styles.css" />
+    </head>
+    <body>
+        <header class="flex">
+            <h1>Jon Belaire</h1>
+            <h2>Full-Stack Web Developer</h2>
+        </header>
+        <!-- INTRODUCTION OF PAGE CONTENT -->
+        <main>
+            <article class="flex">
+                <!-- INTRODUCTION -->
+                <section class="intro flex">
+                    <div class="sectionHeader flex">
+                        <h3>Introductio<span class="cursor">n</span></h3>
+                    </div>
+                    <div class="introContent flex">
+                        <div class="introText flex">
+                            <p>Hello, I'm Jon.</p>
+                            <p>I am a web developer from the small town of Manitou Beach, Michigan.</p>
+                        </div>
+                        <div class="introImage flex">
+                            <img src="profile-img.jpg" />
+                        </div>
+                    </div>
+                </section>
+                <!-- END INTRODUCTION -->
+                <!--ABOUT ME-->
+                <section class="about flex">
+                    <div class="sectionHeader flex">
+                        <h3>Abou<span class="cursor">t</span></h3>
+                    </div>
+                    <p>When it comes to my passion for web development, it is quickly harnessed by my interest in solving complex problems.</p>
+                    <p>This is especially the case when I am among a team of people that are all working towards the same common goal.</p>
+                    <hr>
+                    <p>My current technical expertise of web development covers the following areas:</p>
+                    <ol>
+                        <li>HTML / CSS</li>
+                        <li>UI/UX Design</li>
+                    </ol>
+                    <hr>
+                    <p>Some of my hobbies outside of web development include:</p>
+                    <ul>
+                        <li>Woodworking</li>
+                        <li>Painting Furniture</li>
+                        <li>Hiking</li>
+                        <li>Exploring New Places</li>
+                    </ul>
+                </section>
+                <!-- END ABOUT ME -->
+                <!-- CONTACT -->
+                <section class="contact flex">
+                    <div class="sectionHeader flex">
+                        <h3>Contac<span class="cursor">t</span></h3>
+                    </div>
+                    <div class="contactLinks flex">
+                        <a href="https://github.com/jeriale" target="_blank"><img class="github" src="github-icon.png" alt="Check out my GitHub" /></a>
+                        <a href="https://www.linkedin.com/in/jon-belaire-6a7a311b7/" target="_blank"><img class="linkedin" src="linkedin-icon.png" alt="Check out my LinkedIn" /></a>
+                    </div>
+                </section>
+                <!-- END CONTACT -->
+            </article>
+        </main>
+        <!-- END OF MAIN CONTENT -->
+        <footer class="flex">
+            <p>Jon Belaire | 2021</p>
+        </footer>
+    </body>
 </html>

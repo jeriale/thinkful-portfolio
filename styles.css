@@ -1,3 +1,141 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito&display=swap');
+
+h1 {
+    font-size: 8vw;
+}
+
+h2 {
+    font-size: 4vw;
+}
+
+h3 {
+    font-size: 3.5vw;
+}
+
+hr {
+    margin: 2vw 0;
+    width: 100%;
+}
+
 body {
-    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: 'Nunito', sans-serif;
+    background-color: black;
+    color: white;
+    font-size: 2.5vw;
+}
+
+header {
+    justify-content: center;
+    align-items: center;
+    text-transform: uppercase;
+    min-height: 110vh;
+}
+
+main article {
+    width: 80vw;
+}
+
+footer {
+    align-items: center;
+    text-transform: uppercase;
+    font-size: 1.5vw;
+    width: 100%;
+}
+
+/* CUSTOM STYLES */
+
+.flex {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.sectionHeader {
+    align-items: flex-start;
+    justify-content: center;
+    position: sticky;
+    top: 0;
+    background-color: black;
+    height: 6vw;
+    width: 100%;
+    text-transform: uppercase;
+}
+
+.intro {
+    align-items: center;
+    min-height: 110vh;
+    width: 100%;
+}
+
+.introContent {
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.introText {
+    align-items: flex-start;
+    justify-content: space-evenly;
+    width: 38vw;
+}
+
+.introImage {
+    align-items: center;
+    width: 38vw;
+}
+
+.intro img {
+    border-radius: 5%;
+    width: 30vw;
+}
+
+.about {
+    min-height: 110vh;
+}
+
+.contact {
+    min-height: 110vh;
+    width: 100%;
+}
+
+.contact a {
+    transition: opacity 0.2s;
+}
+
+.contact a:hover {
+    opacity: 0.6;
+}
+
+.contactLinks {
+    flex-direction: row;
+    align-items: center;
+    width: 100%;
+}
+
+.github {
+    padding: 2vw;
+    width: 20vw;
+}
+
+.linkedin {
+    padding: 2vw;
+    width: 16vw;
+}
+
+/* ANIMATION STYLE */
+
+.cursor {
+    animation-duration: .5s;
+    animation-name: cursor-blink;
+    animation-iteration-count: infinite;
+}
+
+@keyframes cursor-blink {
+    0% {background-color: transparent;}
+    50% {background-color: white; color: black;}
+    100% {background-color: transparent;}
 }
