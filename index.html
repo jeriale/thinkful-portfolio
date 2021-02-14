@@ -63,10 +63,19 @@
                     <div class="sectionHeader flex">
                         <span>Contac<span class="cursor">t</span></span>
                     </div>
-                    <div class="contactLinks flex">
-                        <a href="https://github.com/jeriale" target="_blank"><img class="github" src="github-icon.png" alt="Check out my GitHub" /></a>
-                        <a href="https://www.linkedin.com/in/jon-belaire-6a7a311b7/" target="_blank"><img class="linkedin" src="linkedin-icon.png" alt="Check out my LinkedIn" /></a>
-                    </div>
+                    <form action="https://formspree.io/f/xwkwjvwe" method="POST">
+                        <label for="_replyto">YOUR EMAIL</label>
+                        <input type="text" name="_replyto">
+                        <label for="message">YOUR MESSAGE</label>
+                        <textarea name="message"></textarea>
+                        <div class="contactLinks flex">
+                            <button type="submit">SEND</button>
+                            <div class="socialMedia flex">
+                                <a href="https://github.com/jeriale" target="_blank"><img class="github" src="github-icon.png" alt="Check out my GitHub" /></a>
+                                <a href="https://www.linkedin.com/in/jon-belaire-6a7a311b7/" target="_blank"><img class="linkedin" src="linkedin-icon.png" alt="Check out my LinkedIn" /></a>
+                            </div>
+                        </div>
+                    </form>
                 </section>
                 <!-- END CONTACT -->
             </article>

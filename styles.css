@@ -99,8 +99,39 @@ footer {
 }
 
 .contact {
+    align-items: center;
+    justify-content: center;
     min-height: 110vh;
     width: 100%;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 50vw;
+    margin: auto;
+}
+
+label {
+    font-size: 2vw;
+    margin: 0 0 1vw 0;
+}
+
+input {
+    margin: 0 0 2vw 0;
+    width: 40vw;
+}
+
+textarea {
+    margin: 0 0 2vw 0;
+    width: 40vw;
+}
+
+button {
+    font-size: 2vw;
+    height: 4vw;
+    width: 10vw;
 }
 
 .contact a {
@@ -114,17 +145,30 @@ footer {
 .contactLinks {
     flex-direction: row;
     align-items: center;
-    width: 100%;
+    justify-content: space-between;
+    width: 40vw;
+    height: 4vw;
+}
+
+.socialMedia {
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    width: 10vw;
+    height: 4vw;
+}
+
+.socialMedia a {
+    display: flex;
+    align-items: center;
 }
 
 .github {
-    padding: 2vw;
-    width: 20vw;
+    width: 5vw;
 }
 
 .linkedin {
-    padding: 2vw;
-    width: 16vw;
+    width: 4vw;
 }
 
 /* ANIMATION STYLE */
