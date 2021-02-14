@@ -154,13 +154,18 @@ button {
     flex-direction: row;
     align-items: center;
     justify-content: space-between;
-    width: 10vw;
+    width: 15vw;
     height: 4vw;
 }
 
 .socialMedia a {
     display: flex;
     align-items: center;
+}
+
+.email {
+    width: 3.75vw;
+    filter: invert();
 }
 
 .github {
