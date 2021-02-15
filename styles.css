@@ -48,7 +48,6 @@ footer {
     text-align: center;
     text-transform: uppercase;
     font-size: 1.5vw;
-    width: 100%;
 }
 
 /* CUSTOM STYLES */
@@ -63,7 +62,7 @@ footer {
     justify-content: center;
     position: sticky;
     top: 0;
-    background-color: transparent;
+    background-color: black;
     height: 8vw;
     width: 100%;
     text-transform: uppercase;
@@ -73,15 +72,14 @@ footer {
 
 .intro {
     align-items: center;
-    min-height: 110vh;
-    width: 100%;
 }
 
 .introContent {
     flex-direction: row;
     align-items: center;
     justify-content: space-between;
-    height: 100vh;
+    min-height: 110vh;
+    margin: 5vw 0;
 }
 
 .introText {
@@ -100,23 +98,18 @@ footer {
     width: 30vw;
 }
 
-.about {
-    min-height: 110vh;
-}
-
 .aboutContent {
     justify-content: center;
-}
-
-.projects {
     min-height: 110vh;
+    margin: 5vw 0;
 }
 
 .projectsContent {
     flex-direction: row;
     align-items: center;
     justify-content: space-evenly;
-    height: 100vw;
+    min-height: 110vh;
+    margin: 5vw 0;
 }
 
 .projectItem {
@@ -148,7 +141,7 @@ footer {
 
 .projectItem p {
     font-size: 1.5vw;
-    margin: 1vw 0 1vw 0;
+    margin: 1vw 0;
 }
 
 .stackLabels {
@@ -175,11 +168,10 @@ footer {
 .contact {
     align-items: center;
     justify-content: center;
-    min-height: 110vh;
 }
 
 .contactContent {
-    height: 100vh;
+    min-height: 110vh;
 }
 
 form {
